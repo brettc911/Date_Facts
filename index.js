@@ -10,8 +10,6 @@ var leap = (type)=>{
   } return "is not"
 }
 
-
-
 console.log(`It is ${chalk.blue(moment().format("dddd, MMMM Do YYYY, h:mm:ss a"))}.`)
 console.log(`It is the ${chalk.magenta(moment().format("DDDo"))} day of the year`)
 console.log(`It is ${chalk.cyan((moment().hour()*60*60)+(moment().minutes()*60)+(moment().seconds()))} seconds into the day`)
